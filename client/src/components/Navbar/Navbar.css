@@ -1,0 +1,24 @@
+.Navbar{
+background-color: purple;
+display: flex;
+align-items: center;
+position: sticky;
+width: auto;
+height: 5rem;
+z-index: 100;
+padding: auto;
+}
+.auth_img{
+    position: absolute;
+  right: 2rem;
+  display: flex;
+}
+.auth_img h1{
+    text-align: center;
+}
+.auth_img img{
+    max-width: 4rem;
+    width: 4rem;
+    height: 4rem;
+     border-radius: 60%;
+}

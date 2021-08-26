@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Nithesh",
+      "author": "typicode",
+      "like": 0,
+      "details": "details1",
+      "selectedFiles": "https://images.pexels.com/photos/1268097/pexels-photo-1268097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 "
+    },
+    {
+      "id": 2,
+      "title": "rao",
+      "author": "typicode",
+      "like": 0,
+      "details": "details2",
+      "selectedFiles": "https://images.pexels.com/photos/4533077/pexels-photo-4533077.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+    },
+    {
+      "id": 3,
+      "title": "json",
+      "author": "typicode",
+      "like": 0,
+      "details": "details3",
+      "selectedFiles": "https://images.pexels.com/photos/2868847/pexels-photo-2868847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 4,
+      "title": "rver",
+      "author": "typicode",
+      "like": 0,
+      "details": "details4",
+      "selectedFiles": "https://images.pexels.com/photos/1557251/pexels-photo-1557251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+  ]
+}
