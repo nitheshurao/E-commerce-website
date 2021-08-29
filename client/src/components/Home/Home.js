@@ -4,8 +4,9 @@ import Posts from './Posts/Posts'
 import './Home.css';
 import { useDispatch } from 'react-redux';
 import { getPosts } from './../../ACTIONS/Post';
-import PostL from './Posts/Post/PostwithoutLogin/PostL/PostL';
-import PostsL from './Posts/Post/PostwithoutLogin/Postsl/PostsL';
+import Form from './Form/Formm';
+
+
 function Home() {
 
     const [currentId, setCurrentId] = useState(0);
@@ -20,7 +21,7 @@ function Home() {
         <div className="Home">
             <Posts setCurrentId={setCurrentId} />
 
-            {/* <PostsL setCurrentId={setCurrentId} /> */}
+            {/* <Form /> */}
 
         </div>
     )

@@ -7,26 +7,27 @@ import Home from './components/Home/Home';
 import Auth from './components/Auth/Auth';
 import Appp from './Appp';
 
+import Formm from './components/Home/Form/Formm';
+
 
 function App() {
 
   const user = null;
   return (
     <Router >
-      <Navbar />
-      <Appp />
+      {/* <Navbar /> */}
+      {/* <Appp /> */}
+      <Formm />
       <switch>
-        {/* <Route path='/' exact component={Home} /> */}
+        <Route path='/' exact component={Appp} />
+        <Router path='/form' exact component={Formm} />
 
-        <Route path="/auth" exact component={() => (!user ? <Auth /> : <Redirect to="/posts" />)} />
+
+        {/* <Route path="/auth" exact component={() => (!user ? <Auth /> : <Redirect to="/posts" />)} /> */}
 
       </switch>
     </Router>
-    // <div className="App">
-    //   <Navbar />
 
-    //   <Footer />
-    // </div>
   );
 }
 

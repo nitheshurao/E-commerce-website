@@ -1,0 +1,10 @@
+.Item{
+    background-color: rgb(22, 22, 54);
+    display: grid;
+    grid-gap:1rem;
+    justify-items: center;
+margin: 0.1rem;
+
+ 
+    grid-template-columns: repeat( auto-fit, minmax(25rem, 1fr) );
+}
