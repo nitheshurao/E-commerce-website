@@ -6,12 +6,11 @@ export default (posts = [], action) => {
         case FETCH_ALL:
             return action.payload;
         // case LIKE:
-        //     return posts.map((post) => (post.id === action.payload.id ? action.payload : post));
-        //     ;
+        //     return posts.map((post) => (post._id === action.payload._id ? action.payload : [...post, post.like = +1]));
 
         case LIKE:
 
-            return posts.map((post) => (post.id === action.payload.id ? action.payload : post.id.like = post.id.like + 1
+            return posts.map((post) => (post.id === action.payload.id ? action.payload : post
             )
             );
         case CREATE:
